@@ -13,13 +13,27 @@ import AdminDashboard from './screens/AdminDashboard';
 
 // Firebase Config (FREE TIER)
 const firebaseConfig = {
-  apiKey: "AIzaSyDemoKey_Replace_With_Your_Firebase",
-  authDomain: "kone-maintenance.firebaseapp.com",
-  projectId: "kone-maintenance",
-  storageBucket: "kone-maintenance.appspot.com",
-  messagingSenderId: "123456789",
-  appId: "1:123456789:web:abc123def456"
+  apiKey: "AIzaSyDyrFzbiqsr7cfSGtq3ynjDrV1Aax_PNF8",
+  authDomain: "ai-based-back-reporting.firebaseapp.com",
+  projectId: "ai-based-back-reporting",
+  storageBucket: "ai-based-back-reporting.firebasestorage.app",
+  messagingSenderId: "1040193816941",
+  appId: "1:1040193816941:web:03056e24dd78e09e4c7264"
 };
+
+
+"""
+const firebaseConfig = {
+  apiKey: "AIzaSyDyrFzbiqsr7cfSGtq3ynjDrV1Aax_PNF8",
+  authDomain: "ai-based-back-reporting.firebaseapp.com",
+  projectId: "ai-based-back-reporting",
+  storageBucket: "ai-based-back-reporting.firebasestorage.app",
+  messagingSenderId: "1040193816941",
+  appId: "1:1040193816941:web:03056e24dd78e09e4c7264",
+  measurementId: "G-00VEF6ZLJ7"
+};
+"""
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
