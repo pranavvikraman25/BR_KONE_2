@@ -1,0 +1,27 @@
+{
+  "name": "kone-maintenance-tracker",
+  "version": "1.0.0",
+  "description": "KONE Smart Maintenance Tracking App with Accelerometer & Cloud Backend",
+  "main": "expo-app.json",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "expo": "~54.0.0",
+    "expo-sensors": "~13.0.0",
+    "expo-status-bar": "~1.12.1",
+    "firebase": "^10.7.0",
+    "react": "18.2.0",
+    "react-native": "0.73.6",
+    "react-native-screens": "~3.29.0",
+    "react-native-safe-area-context": "4.8.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.0"
+  },
+  "private": true
+}
