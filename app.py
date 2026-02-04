@@ -21,21 +21,6 @@ const firebaseConfig = {
   appId: "1:1040193816941:web:03056e24dd78e09e4c7264"
 };
 
-
-"""
-const firebaseConfig = {
-  apiKey: "AIzaSyDyrFzbiqsr7cfSGtq3ynjDrV1Aax_PNF8",
-  authDomain: "ai-based-back-reporting.firebaseapp.com",
-  projectId: "ai-based-back-reporting",
-  storageBucket: "ai-based-back-reporting.firebasestorage.app",
-  messagingSenderId: "1040193816941",
-  appId: "1:1040193816941:web:03056e24dd78e09e4c7264",
-  measurementId: "G-00VEF6ZLJ7"
-};
-"""
-
-
-// Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 
